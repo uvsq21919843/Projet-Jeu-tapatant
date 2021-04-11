@@ -5,6 +5,7 @@
 # Anessa Diallo
 # Enzo Reale
 # Phkar Romdoul
+# Verdon Justin
 # https://github.com/uvsq21919843/Projet-Jeu-tapatant.git
 #########################################
 
