@@ -126,68 +126,68 @@ def place_pion(event):
 def score():
     global T, victoire, Joueur
     if T[0][0] == T[0][1] == T[0][2] and T[0][0] != 0 :
-        if T[0][0] == 1 : #joueur 1 vaincueur
+        if T[0][0] == 1 : #joueur 1 vainqueur
             canvas.delete('all')
-            canvas.create_text(200, 200, text='Joueur 1 vaincueur')
-        else : #joueur 2 vaincueur
+            canvas.create_text(200, 200, text='Joueur 1 vainqueur')
+        else : #joueur 2 vainqueur
             canvas.delete('all')
-            canvas.create_text(200, 200, text='Joueur 2 vaincueur')
+            canvas.create_text(200, 200, text='Joueur 2 vainqueur')
 
     elif T[0][0] == T[1][1] == T[2][2] and T[0][0] != 0 :
-        if T[0][0] == 1 : #joueur 1 vaincueur
+        if T[0][0] == 1 : #joueur 1 vainqueur
             canvas.delete('all')
-            canvas.create_text(200, 200, text='Joueur 1 vaincueur')
-        else : #joueur 2 vaincueur
+            canvas.create_text(200, 200, text='Joueur 1 vainqueur')
+        else : #joueur 2 vainqueur
             canvas.delete('all')
-            canvas.create_text(200, 200, text='Joueur 2 vaincueur')
+            canvas.create_text(200, 200, text='Joueur 2 vainqueur')
 
     elif T[0][0] == T[1][0] == T[2][0] and T[0][0] != 0 :
-        if T[0][0] == 1 : #joueur 1 vaincueur
+        if T[0][0] == 1 : #joueur 1 vainqueur
             canvas.delete('all')
-            canvas.create_text(200, 200, text='Joueur 1 vaincueur')
-        else : #joueur 2 vaincueur
+            canvas.create_text(200, 200, text='Joueur 1 vainqueur')
+        else : #joueur 2 vainqueur
             canvas.delete('all')
-            canvas.create_text(200, 200, text='Joueur 2 vaincueur')
+            canvas.create_text(200, 200, text='Joueur 2 vainqueur')
 
     elif T[1][0] == T[1][1] == T[1][2] and T[1][0] != 0 :
-        if T[1][0] == 1 : #joueur 1 vaincueur
+        if T[1][0] == 1 : #joueur 1 vainqueur
             canvas.delete('all')
-            canvas.create_text(200, 200, text='Joueur 1 vaincueur')
-        else : #joueur 2 vaincueur
+            canvas.create_text(200, 200, text='Joueur 1 vainqueur')
+        else : #joueur 2 vainqueur
             canvas.delete('all')
-            canvas.create_text(200, 200, text='Joueur 2 vaincueur')
+            canvas.create_text(200, 200, text='Joueur 2 vainqueur')
 
     elif T[2][0] == T[2][1] == T[2][2] and T[2][0] != 0 :
-        if T[2][0] == 1 : #joueur 1 vaincueur
+        if T[2][0] == 1 : #joueur 1 vainqueur
             canvas.delete('all')
-            canvas.create_text(200, 200, text='Joueur 1 vaincueur')
-        else : #joueur 2 vaincueur
+            canvas.create_text(200, 200, text='Joueur 1 vainqueur')
+        else : #joueur 2 vainqueur
             canvas.delete('all')
-            canvas.create_text(200, 200, text='Joueur 2 vaincueur')
+            canvas.create_text(200, 200, text='Joueur 2 vainqueur')
 
     elif T[0][1] == T[1][1] == T[2][1] and T[0][1] != 0 :
-        if T[0][1] == 1 : #joueur 1 vaincueur
+        if T[0][1] == 1 : #joueur 1 vainqueur
             canvas.delete('all')
-            canvas.create_text(200, 200, text='Joueur 1 vaincueur')
-        else : #joueur 2 vaincueur
+            canvas.create_text(200, 200, text='Joueur 1 vainqueur')
+        else : #joueur 2 vainqueur
             canvas.delete('all')
-            canvas.create_text(200, 200, text='Joueur 2 vaincueur')
+            canvas.create_text(200, 200, text='Joueur 2 vainqueur')
 
     elif T[0][2] == T[1][2] == T[2][2] and T[0][2] != 0 :
-        if T[0][2] == 1 : #joueur 1 vaincueur
+        if T[0][2] == 1 : #joueur 1 vainqueur
             canvas.delete('all')
-            canvas.create_text(200, 200, text='Joueur 1 vaincueur')
-        else : #joueur 2 vaincueur
+            canvas.create_text(200, 200, text='Joueur 1 vainqueur')
+        else : #joueur 2 vainqueur
             canvas.delete('all')
-            canvas.create_text(200, 200, text='Joueur 2 vaincueur')
+            canvas.create_text(200, 200, text='Joueur 2 vainqueur')
 
     elif T[0][2] == T[1][1] == T[2][0] and T[0][2] != 0 :
-        if T[0][2] == 1 : #joueur 1 vaincueur
+        if T[0][2] == 1 : #joueur 1 vainqueur
             canvas.delete('all')
-            canvas.create_text(200, 200, text='Joueur 1 vaincueur')
-        else : #joueur 2 vaincueur
+            canvas.create_text(200, 200, text='Joueur 1 vainqueur')
+        else : #joueur 2 vainqueur
             canvas.delete('all')
-            canvas.create_text(200, 200, text='Joueur 2 vaincueur')
+            canvas.create_text(200, 200, text='Joueur 2 vainqueur')
 
 """affiche le tableau"""
 def affichetab(tab):
